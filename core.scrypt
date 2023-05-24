@@ -1,4 +1,15 @@
+// Lines with double slashes are comments. They'll be ignored by the interpreter.
 out This is the first line printed by a scrypt.
+
+// Setting a timeout for half a second.
 wait 0.5
 out Text after timeout.
 out ${RED} Colored ${BLUE} text.
+out The line below will run some python stuff.
+
+// Importing "os" module
+do import os
+
+// Setting title of window.
+do os.system("title Title of window set.")
+out The title of the window has changed!
