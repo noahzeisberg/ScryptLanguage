@@ -1,0 +1,4 @@
+out This is the first line printed by a scrypt.
+wait 0.5
+out Text after timeout.
+out ${RED} Colored ${BLUE} text.
