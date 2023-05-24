@@ -1,15 +1,13 @@
 // Lines with double slashes are comments. They'll be ignored by the interpreter.
-out This is the first line printed by a scrypt.
+out Welcome to the core.scrypt demonstration file.
 
-// Setting a timeout for half a second.
-wait 0.5
-out Text after timeout.
-out ${RED} Colored ${BLUE} text.
-out The line below will run some python stuff.
+// You can use the "wait" statement for timeouts.
+wait 0.25
 
-// Importing "os" module
+// Colored text demonstration
+out Here's how you can make ${RED} colored ${BLUE} text.
+
+// Run python code injections demo
 do import os
-
-// Setting title of window.
 do os.system("title Title of window set.")
-out The title of the window has changed!
+out The title has changed!
