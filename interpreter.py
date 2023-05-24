@@ -2,7 +2,6 @@ import os.path
 import sys
 import time
 from colorama import init, Fore
-
 init(convert=True)
 
 
